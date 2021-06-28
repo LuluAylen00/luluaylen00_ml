@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #EAC926;
+    padding: 10px;
+}
+
+
+
+button {
+    border: 0;
+    color: rgb(100, 100, 100);
+    background-color: #ebebeb;
+    border-radius: 50px;
+}
+
+.compra-en-cuotas{
+    padding: 10px;
+    margin: auto;
+}
+
+#mobile-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3em;
+    height: 3em;
+    margin: auto;
+}
+
+
+.burger-menu {
+    font-size: 2em;
+    color: #ebebeb;
+    padding: 10px;
+    background-color: #1259c3;
+    border-radius: 10px;
+}
+
+/* Formato de la barra de busqueda*/
+.barra-busqueda {
+    background-color: #ebebeb;
+    border-radius: 10px;
+    padding: 2px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+/* Formato del selector de categoría*/
+#linea {
+    background-color: #ebebeb;
+    padding: 8px;
+    border: 0;
+    width: 100%;
+}
+/* Formato del botón de busqueda */
+#buscar {
+    background-color: #ebebeb;
+    border: 0;
+    margin: 2px;
+    text-align: center;
+}
+
+#main-logo {
+    width: 200px;
+    margin: auto;
+}
+
+#nav-bottom {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bottom ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.compra-en-cuotas {
+    font-size: 18px;
+}
+#nav-bottom a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px;
+    padding-left: 10px;
+}
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 767px){
+    #nav-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        margin: auto;
+    }
+    #nav-bottom { 
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px){
+    #nav-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #nav-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #nav-top, #nav-bottom {
+        max-width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#descripcion {
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+main {
+    margin-top: 237px;
+}
+
+.fa-truck{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    margin: 0px;
+}
+
+
+#descripcion {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+p {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+p.precio {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p.descuento {
+    font-size: 16px;
+    color: #39b54a;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.precio-con-descuento {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+
+article img {
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ebebeb;
+}
+
+article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    text-align: left;
+}
+
+.fa-truck {
+    color: #39b54a;
+    border: solid 1px #39b54a;
+    border-radius: 50px;
+    text-align: left;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#foto-producto {
+    text-align: center;
+}
+
+@media (min-width: 361px){
+    article p.nombre {
+        display: none;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px){
+
+    #mobile-menu {
+        display: none;
+    }
+
+    article p.nombre, header nav {
+        display: block;
+    }
+
+    main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40vw;
+    }
+
+    article img {
+        width: 80%;
+    }
+
+    .galeria {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+}
+@media (min-width: 484px) {
+    main {
+        margin-top: 179px;
+    }
+}
+@media (min-width: 768px) {
+    main {
+        margin-top: 120px;
+    }
+}
+@media (min-width: 1200px){
+    main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 20vw;
+    }
+    main {
+        margin-top: 99px;
+    }
+}
