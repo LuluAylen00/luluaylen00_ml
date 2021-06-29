@@ -8,14 +8,7 @@
     position: relative;
 }
 
-header {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-}
-main {
-    margin-top: 237px;
-}
+
 
 .fa-truck{
     display: block;
@@ -112,8 +105,12 @@ article {
 }
 
 @media (min-width: 361px){
-    article p.nombre {
+    main article .nombre {
         display: none;
+    }
+    
+    main article:hover .nombre {
+        display: block;
     }
 
     header nav {
@@ -132,15 +129,19 @@ article {
         display: none;
     }
 
-    article p.nombre, header nav {
+    header nav {
         display: block;
     }
 
     main article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
         width: 40vw;
     }
 
+    main article:hover {
+        box-shadow: 1px 1px 10px 2px rgb(100, 100, 100);
+    }
+    
     article img {
         width: 80%;
     }
@@ -152,23 +153,13 @@ article {
         justify-content: space-around;
         
     }
+    
+    
 }
-@media (min-width: 484px) {
-    main {
-        margin-top: 179px;
-    }
-}
-@media (min-width: 768px) {
-    main {
-        margin-top: 120px;
-    }
-}
+
 @media (min-width: 1200px){
     main article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 20vw;
     }
-    main {
-        margin-top: 99px;
-    }
+
 }

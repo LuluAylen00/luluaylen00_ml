@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main input.caja {
+    width: 90vw;
+    border-radius: 10px;
+    padding: 17px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#enviar {
+    width: 60vw;
+    background-color: #1259c3;
+    border-radius: 10px;
+    padding: 17px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#enviar:hover {
+    background-color: #0022AA;
+}
+#botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#intereses {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 10vw;
+}
+
+#intereses .lista {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lista p {
+    margin-left: 10px;
+}
+
+main h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    align-self: flex-start;
+    margin-left: 5vw;
+}
+
+.file {
+    max-width: 90vw;
+}
