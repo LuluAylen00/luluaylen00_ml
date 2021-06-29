@@ -8,7 +8,10 @@
     position: relative;
 }
 
-
+.banner {
+    width: 100%;
+    max-width: 100vw;
+}
 
 .fa-truck{
     display: block;
